@@ -1,5 +1,4 @@
 import org.telegram.telegrambots.meta.TelegramBotsApi;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import telegram.handlers.CommandsHandler;
 
@@ -9,6 +8,8 @@ public class Bot {
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
             telegramBotsApi.registerBot(new CommandsHandler());
         }
-        catch(TelegramApiException e){}
+        catch(Exception e){
+            System.out.println(e.getMessage());
+        }
     }
 }

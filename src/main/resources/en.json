@@ -1,0 +1,13 @@
+{
+    "Greeting": "Hello",
+    "Help": "To dowload a video from Pinterest enter its url. For example: https://www.pinterest.com/pin/194288171419443165. To change the language enter /lang command.",
+    "Instruction": "To dowload a video from Pinterest enter its url.",
+    "Error": "Something went wrong. Please check that the link is correct and try again.",
+    "Wrong Command": "The command is unknown. Pleas, use the /help command to get help.",
+    "Wrong Input": "Sorry, I don't understand.",
+    "Wait": "Please, wait a moment.",
+    "Select Language": "Select Language.",
+    "Language changed": "The language has changed.",
+    "English": "English",
+    "Russian": "Russian"
+}
