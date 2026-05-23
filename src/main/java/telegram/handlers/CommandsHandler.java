@@ -62,7 +62,6 @@ public class CommandsHandler extends TelegramLongPollingCommandBot {
             if(userMessage.startsWith(PINTEREST_LONG_LINK) || userMessage.startsWith(PINTEREST_SHORT_LINK)){
                 sendMessageToUser(messageSender, LanguageService.Get(chatId, "Wait"), chatId);
 
-                //InputFile video = Downloader.getInstance().download(userMessage);
                 Downloader d = new Downloader(userMessage);
                 Future<InputFile> future = executorService.submit(d);
                 try {

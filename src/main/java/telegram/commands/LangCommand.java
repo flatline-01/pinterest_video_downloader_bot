@@ -2,7 +2,6 @@ package telegram.commands;
 
 import services.LanguageService;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import org.telegram.telegrambots.extensions.bots.commandbot.commands.BotCommand;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
